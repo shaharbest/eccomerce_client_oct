@@ -1,5 +1,7 @@
 import Catalog from "./Components/Catalog";
 import Navbar from "./Components/Navbar";
+import ClicksDemo from "./Components/demo/ClicksDemo";
+import StateDemo from "./Components/demo/StateDemo";
 
 function App() {
   return <>
@@ -8,7 +10,9 @@ function App() {
       <h1>Shahar Eccommerce</h1>
     </header>
     <main>
-      <Catalog />
+      {/* <Catalog /> */}
+      {/* <ClicksDemo /> */}
+      <StateDemo />
     </main>
     <footer>
       <p>
