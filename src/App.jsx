@@ -1,5 +1,7 @@
+import Catalog from "./Components/Catalog";
+
 function App() {
-  return 'Avi Biter';
+  return <Catalog />;
 }
 
 export default App
