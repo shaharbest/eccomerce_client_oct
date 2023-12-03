@@ -1,8 +1,10 @@
 import Catalog from "./Components/Catalog";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return <>
     <header>
+      <Navbar /> 
       <h1>Shahar Eccommerce</h1>
     </header>
     <main>
