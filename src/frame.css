@@ -21,6 +21,26 @@ html, body { height: 100% }
 }
 footer { margin-block-start: auto; }
 
-main {
+main { padding: 1rem; }
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
   padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 10%);
+  align-items: center;
+}
+
+.icon img { height: 100%; }
+.icon { height: 2rem; }
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: .5rem;
 }

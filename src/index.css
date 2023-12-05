@@ -1,29 +1,3 @@
-nav a {
-  text-decoration: none;
-  color: white;
-}
-
-nav {
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  background-color: hsl(0, 0%, 10%);
-  align-items: center;
-}
-
-.icon img {
-  height: 100%;
-}
-
-.icon {
-  height: 2rem;
-}
-
-.menu {
-  list-style-type: none;
-  display: flex;
-  gap: .5rem;
-}
 
 .catalog-board {
   display: flex;
@@ -45,40 +19,4 @@ nav {
 .catalog h2 {
   text-align: center;
   padding: 1em;
-}
-
-.infos {
-  display: flex;
-  gap: .5rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.info-toggle h3 {
-  text-transform: capitalize;
-}
-
-.info-toggle {
-  display: flex;
-  gap: .5rem;
-  flex-direction: column;
-  align-items: center;
-  background-color: hsl(1, 0%, 10%);
-  padding: .5rem;
-  width: 6rem;
-}
-
-button {
-  min-width: 2rem;
-}
-
-.color-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: .5rem;
-}
-
-.color-form input {
-  text-align: center;
 }

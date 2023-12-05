@@ -4,6 +4,7 @@ import ClicksDemo from "./Components/demo/ClicksDemo";
 import StateDemo from "./Components/demo/StateDemo";
 import Counter from "./Components/demo/Counter";
 import ColorForm from "./Components/demo/ColorForm";
+import UserForm from "./Components/demo/UserForm";
 
 function App() {
   return <>
@@ -15,8 +16,9 @@ function App() {
       {/* <Catalog /> */}
       {/* <ClicksDemo /> */}
       {/* <StateDemo /> */}
-      <Counter />
+      {/* <Counter /> */}
       {/* <ColorForm /> */}
+      <UserForm />
     </main>
     <footer>
       <p>
