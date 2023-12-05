@@ -1,13 +1,11 @@
 import { useState } from "react";
 
-export default function InfoToggle(props) {
+export default function InfoToggle({ info }) {
     const [isHidden, setIsHidden] = useState(true);
 
     function toggleIsHidden() {
         setIsHidden(!isHidden);
     }
-
-    const info = props.info;
 
     return <div className="info-toggle">
         <h3>{info.title}</h3>

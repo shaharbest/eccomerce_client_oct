@@ -2,6 +2,8 @@ import Catalog from "./Components/Catalog";
 import Navbar from "./Components/Navbar";
 import ClicksDemo from "./Components/demo/ClicksDemo";
 import StateDemo from "./Components/demo/StateDemo";
+import Counter from "./Components/demo/Counter";
+import ColorForm from "./Components/demo/ColorForm";
 
 function App() {
   return <>
@@ -12,7 +14,9 @@ function App() {
     <main>
       {/* <Catalog /> */}
       {/* <ClicksDemo /> */}
-      <StateDemo />
+      {/* <StateDemo /> */}
+      <Counter />
+      {/* <ColorForm /> */}
     </main>
     <footer>
       <p>

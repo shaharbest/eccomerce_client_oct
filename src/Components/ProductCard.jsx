@@ -1,10 +1,23 @@
-export default function ProductCard(props) {
-    const product = props.product;
+import { useState } from "react";
 
-    return <div className="product-card">
+export default function ProductCard({ product }) {
+    const [bgColor, setBgColor] = useState('blue');
+
+    const cardStyle = {
+        backgroundColor: bgColor,
+    };
+
+    return <div className="product-card"
+        style={cardStyle}
+        onClick={() => setBgColor(getRandomColor())}>
         <h3>{product.name}</h3>
         <div className="price">
             $ {product.price}
         </div>
     </div>
+}
+
+function getRandomColor() {
+  const randomColor = Math.floor(Math.random() * 16777215);
+  return '#' + randomColor.toString(16).padStart(6, '0');
 }
